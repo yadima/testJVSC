@@ -1,0 +1,4 @@
+require 'capistrano/setup'
+set :stage, :staging
+require 'capistrano/deploy'
+require 'capistrano/symfony'

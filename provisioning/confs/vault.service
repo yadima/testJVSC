@@ -1,0 +1,8 @@
+[Unit]
+Description=HashiCorp Vault Service
+
+[Service]
+ExecStart=/home/vagrant/vault server -config=/home/vagrant/vault.hcl
+
+[Install]
+WantedBy=multi-user.target

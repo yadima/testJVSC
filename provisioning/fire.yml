@@ -1,0 +1,5 @@
+- hosts: jvsc
+  vars_files:
+    - vars/main.yml
+  roles:
+    - { role: geerlingguy.firewall }
